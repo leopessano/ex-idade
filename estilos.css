@@ -1,0 +1,41 @@
+@charset "UTF=8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+    font-size: 1.3em;
+    background-color: rgb(64, 135, 202);
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.568);
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+section {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
+}
+
+input#valid {
+    padding: 3px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.568);
+    margin-top: 5%;
+}

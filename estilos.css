@@ -28,7 +28,13 @@ section {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
 }
 
+#ano {
+    margin-bottom: 15px;
+}
+
 input#valid {
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 3px;
 }
 

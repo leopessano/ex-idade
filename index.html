@@ -16,16 +16,19 @@
                 Ano de Nascimento: <input type="number" name="ano" id="anoNasc" min="0">
             </p>
             <p>
-                Sexo: <input type="radio" name="sexo" id="mas" checked>
+                Sexo: <input type="radio" name="radsex" id="mas" checked>
                 <label for="mas">Masculino</label>
-                <input type="radio" name="sexo" id="fem">
+                <input type="radio" name="radsex" id="fem">
                 <label for="fem">Feminino</label>
             </p>
-            <p>
-                <input id="valid" type="submit" value="Validar" onclick="verificar()">
+            <p> <!-- Aqui não pode ser input submit, tem que ser button-->
+                <input id="valid" type="button" value="Validar" onclick="verificar()">
             </p>
         </form>
         <p id="res">Preencha os dados acima para ver o resultado!</p>
+        <div>
+            <img id="imagem" src="" alt="">
+        </div>
     </section>
     <footer>
         <p>© CursoEmVídeo</p>
